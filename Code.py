@@ -21,7 +21,6 @@ catchup=False,
 )
 def etl_function():
 print("EXTRACTION STARTED")
-19
 extraction_returned_data = extract_data_from_csv()
 print("TRANSFORMATION STARTED")
 transformation_returned_data = transform_data(extraction_returned_data)
