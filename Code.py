@@ -396,7 +396,8 @@ max_active_runs=1,
 s3_bucket_name = 'abc'
 aws_access_key = 'xyz'
 aws_secret_key = 'xyz'
-aws_conn_id='amazon_conn'
+aws_conn_id='xyz
+'
 def etl_function():
 print("EXTRACTION STARTED")
 extraction_returned_data = extract_data_from_s3(s3_bucket_name, aws_conn_id)
