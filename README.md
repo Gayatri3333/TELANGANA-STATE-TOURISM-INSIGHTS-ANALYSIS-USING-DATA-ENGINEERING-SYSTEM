@@ -72,3 +72,18 @@ It involves analyzing the data to find valuable insights and draw valid conclusi
 It involves streaming analytical results from the data processed and stored.
 •
 It improvises business intelligence and helps businesses grow revenue and use data efficiently.
+
+# OVERVIEW OF TECHNOLOGIES
+
+Docker
+We utilized Docker to establish an isolated environment, enabling the installation of Apache Airflow alongside its requisite dependencies, thereby maintaining separation from the host system. Also, created a Python virtual environment within the Docker container for further encapsulation. This approach ensures a clean and self-contained setup for the Airflow project, safeguarding the local environment from disruptions.
+Apache Airflow
+We employed Apache Airflow to create and manage our ETL (Extract, Transform, Load) pipelines. This helped us automate the process of gathering, transforming, and loading data from various sources, making our data workflows more efficient and reliable. Airflow made it easier to schedule and monitor these tasks, improving our data processing capabilities.
+MySQL Workbench
+We utilized MySQL workbench to store our database, making it possible for our data pipeline to access and work with structured data. This allowed us to store and retrieve data in an organized way, making it readily available for our data processing tasks within the pipeline.
+Amazon S3
+We stored our data in Amazon S3 to ensure easy access and retrieval, especially when our data is updated. Amazon S3 serves as a secure and scalable storage solution, allowing us to always keep our data safe and available. This means that whenever our data is refreshed or changed, we can still easily access it and fetch the latest results without any hassle.
+Snowflake
+We chose to use Snowflake for our data warehousing needs. Snowflake provides a place where we can store our data in an organized and efficient manner. It's like a big storage facility where we can keep all our data safe and easy to access when we need it for analysis and other purposes. This helps us manage our data effectively.
+Power Bi
+We made use of Power BI to create visuals for our data. Power BI is a helpful tool that allows us to turn our data into meaningful charts, graphs, and reports. These visuals make it much easier to understand and interpret our data, helping us make informed decisions and communicate our findings effectively. Power BI's user-friendly interface and powerful features enable us to present our data in a visually appealing and insightful way, making it an asset for our project.
