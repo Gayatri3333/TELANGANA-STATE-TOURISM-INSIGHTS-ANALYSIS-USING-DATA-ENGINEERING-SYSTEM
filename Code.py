@@ -1,5 +1,4 @@
 # Etl_Local.py:
-
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
